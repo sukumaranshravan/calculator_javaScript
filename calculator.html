@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calc-body">
+        <p class="company">CASIO</p>
+        <div class="display">
+            <input type="text" name="" id="screen" >
+        </div>
+        <div class="keypad">
+            <button value="7" onclick="number(value)">7</button>
+            <button value="8" onclick="number(value)" id="">8</button>
+            <button value="9" onclick="number(value)" id="">9</button>
+            <button value="on" onclick="fun(value)" class="on">ON</button>
+            <button value="4" onclick="number(value)" id="">4</button>
+            <button value="5" onclick="number(value)" id="">5</button>
+            <button value="6" onclick="number(value)" id="">6</button>
+            <button value="+" onclick="number(value)" id="">+</button>    
+            <button value="1" onclick="number(value)" id="">1</button>
+            <button value="2" onclick="number(value)" id="">2</button>
+            <button value="3" onclick="number(value)" id="">3</button>
+            <button value="-" onclick="number(value)" id="">-</button>            
+            <button value="0" onclick="number(value)" id="">0</button>
+            <button value="." onclick="number(value)" id="">.</button>
+            <button value="/" onclick="number(value)" id="">÷</button>            
+            <button value="*" onclick="number(value)" id="">x</button>
+            <button value="ac" onclick="fun(value)" class="ac">AC</button>
+            <button value="del" onclick="fun(value)" class="ac">DEL</button>
+            <button onclick="number('Math.sqrt')" id="">√</button>
+            <button value="=" onclick="result(value)" id="">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./calculator.js"></script>
+</body>
+</html>
